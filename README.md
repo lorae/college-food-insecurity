@@ -6,11 +6,8 @@ my demographR package.
 
 ## 📊 Key Findings
 
-Percentage of students enrolled in higher education, age 18-24, nationally, on food stamps in 2025:
-
-[forthcoming]
-
-[add choropleth]
+According to the 2025 ASEC, 9.8% of full-time college students over age 18 were on food stamps, while
+9.0% of part-time college students were on food stamps.
 
 Percentage of students in higher education who live in dorms that do not have kitchen facilities:
 
