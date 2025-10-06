@@ -32,6 +32,7 @@ crosstab_percent(
   percent_group_by = c()
 )
 
+# Food insecurity
 crosstab_percent(
   data = ipums_db |> filter(
     AGE >= 18 & 
@@ -42,3 +43,21 @@ crosstab_percent(
   group_by = c("FSSTATUSD"),
   percent_group_by = c()
 )
+
+# Received food from food bank / pantry in past month
+# Something must be wrong because I can't fathom 61% of students got food from a 
+# food bank/pantry. Maybe they are counting dining halls?
+# (Replaces SC3) In the last 12 months, did (you/you or anyone in your household) 
+# ever get free groceries from a food pantry, food bank, church, or other place 
+# that helps with free food?
+crosstab_percent(
+  data = ipums_db |> filter(
+    AGE >= 18 & 
+      in_college &
+    FSFDBNKMO != 99 
+  ),
+  wt_col = "WTFINL",
+  group_by = c("FSFDBNKMO"),
+  percent_group_by = c()
+)
+
