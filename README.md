@@ -14,23 +14,23 @@ kinds of food they wanted to eat. Of the remaining one quarter students, roughly
 4 in 5 reports having enough food, but not the kinds they want to eat, and 1 in 5 reports
 sometimes or always not having enough to eat.
 
-| FSFOODS Code | Food Sufficiency Description                                | Weighted Count | Unweighted Count | Percent |
-|:-------------:|:------------------------------------------------------------|----------------:|-----------------:|-------------:|
-| 1             | Enough of the kinds of food we want to eat                  | 9,181,939       | 2,296            | 75.5 %        |
-| 2             | Enough but not always the kinds of food we want to eat      | 2,538,402       |   646            | 20.9 %        |
-| 3             | Sometimes not enough to eat                                |   367,948       |    85            | 3.0 %        |
-| 4             | Often not enough to eat                                    |    58,165       |    14            | 0.5 %        |
-| 97            | Don’t know                                                 |    12,977       |     4            | 0.1 %         |
+| Food Sufficiency Description                                | Weighted Count | Unweighted Count | Percent |
+|:------------------------------------------------------------|----------------:|-----------------:|-------------:|
+| Enough of the kinds of food we want to eat                  | 9,181,939       | 2,296            | 75.5 %        |
+| Enough but not always the kinds of food we want to eat      | 2,538,402       |   646            | 20.9 %        |
+| Sometimes not enough to eat                                |   367,948       |    85            | 3.0 %        |
+| Often not enough to eat                                    |    58,165       |    14            | 0.5 %        |
+| Don’t know                                                 |    12,977       |     4            | 0.1 %         |
 
 According to [this definition](https://cps.ipums.org/cps-action/variables/FSSTATUSD#description_section), roughly 22% of college students suffer from some form of food insecurity.
 
-| FSSTATUSD Code | USDA Food Security Category     | Weighted Count | Unweighted Count | Percent |
-|:---------------:|:-------------------------------|----------------:|-----------------:|-------------:|
-| 1 | High food security | 9,428,621 | 2,375 | 77.5 % |
-| 2 | Marginal food security | 1,197,125 | 305 | 9.9 % |
-| 3 | Low food security | 1,016,788 | 247 | 8.4 % |
-| 4 | Very low food security | 491,536 | 112 | 4.0 % |
-| 98 | No response | 25,362 | 6 | 0.2 % |
+| USDA Food Security Category     | Weighted Count | Unweighted Count | Percent |
+|:-------------------------------|----------------:|-----------------:|-------------:|
+| High food security | 9,428,621 | 2,375 | 77.5 % |
+| Marginal food security | 1,197,125 | 305 | 9.9 % |
+| Low food security | 1,016,788 | 247 | 8.4 % |
+| Very low food security | 491,536 | 112 | 4.0 % |
+| No response | 25,362 | 6 | 0.2 % |
 
 
 Percentage of students in higher education with less than $30,000 income per year and no kitchen facilities:
