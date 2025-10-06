@@ -1,5 +1,8 @@
 # 🍝 College Food Insecurity
-How much food insecurity exists among U.S. college students? I answer this question using data from the IPUMS Current Population Survey and IPUMS USA datasets, along with my demographR package.
+How much food insecurity exists among U.S. college students? I answer this question 
+using the 2025 Annual Social and Economic Supplement to the Current Population Survey
+and the December 2023 wave of the Current Population Survey, accessed through IPUMS, along with 
+my demographR package.
 
 ## 📊 Key Findings
 

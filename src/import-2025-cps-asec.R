@@ -68,6 +68,14 @@ download_extract(
 
 extract_num <- sprintf("%05d", submitted$number)
 
-ddi_path <- glue("{download_dir}/usa_{extract_num}.xml")
-dat_path <- glue("{download_dir}/usa_{extract_num}.dat.gz")
+ddi_path <- glue("{download_dir}/cps_{extract_num}.xml")
+dat_path <- glue("{download_dir}/cps_{extract_num}.dat.gz")
 
+# ----- Step 3: Save to DuckDB ----- #
+
+ddi <- read_ipums_ddi(ddi_path)
+ipums_tb <- read_ipums_micro(ddi, var_attrs = c()) 
+
+con <- dbConnect(duckdb::duckdb(), glue("{db_dir}/ipums.duckdb"))
+dbWriteTable(con, "ipums_2025_asec", ipums_tb, overwrite = TRUE)
+DBI::dbDisconnect(con)
