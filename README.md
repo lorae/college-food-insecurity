@@ -2,7 +2,19 @@
 How much food insecurity exists among U.S. college students? I answer this question using data from the IPUMS Current Population Survey and IPUMS USA datasets, along with my demographR package.
 
 ## 📊 Key Findings
-Forthcoming.
+
+Percentage of students enrolled in higher education, age 18-24, nationally, on food stamps in 2025:
+
+[forthcoming]
+
+[add choropleth]
+
+Percentage of students in higher education who live in dorms that do not have kitchen facilities:
+
+Percentage of students in higher education with less than $30,000 income per year and no kitchen facilities:
+
+Percentage of students in higher education who have used a food bank in the last month:
+
 
 ## ⚡ Quick Start
 For experienced users who just want to get the project running right away. If you
