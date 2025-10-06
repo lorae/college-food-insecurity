@@ -3,3 +3,9 @@
 .RData
 .Ruserdata
 .Renviron
+
+# Preserve data file structure without committing data itself
+data/ipums-microdata/**
+!data/ipums-microdata/.gitkeep
+data/db/**
+!data/db/.gitkeep
