@@ -34,9 +34,7 @@ According to [this definition](https://cps.ipums.org/cps-action/variables/FSSTAT
 
 
 Percentage of students in higher education with less than $30,000 income per year and no kitchen facilities:
-
-Percentage of students in higher education who have used a food bank in the last month:
-
+[forthcoming]
 
 ## ⚡ Quick Start
 For experienced users who just want to get the project running right away. If you
